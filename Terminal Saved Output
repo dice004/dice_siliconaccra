@@ -1,0 +1,347 @@
+(base) siaccrainnovationsch@IMACs-iMac ~ % ls
+Applications	Documents	Library		Music		Public		dice
+Desktop		Downloads	Movies		Pictures	anaconda3
+(base) siaccrainnovationsch@IMACs-iMac ~ % pwd
+/Users/siaccrainnovationsch
+(base) siaccrainnovationsch@IMACs-iMac ~ % cd documents
+(base) siaccrainnovationsch@IMACs-iMac documents % ls
+dice		siliconaccra	week_2
+(base) siaccrainnovationsch@IMACs-iMac documents % cd dice
+(base) siaccrainnovationsch@IMACs-iMac dice % ls
+week1	week2
+(base) siaccrainnovationsch@IMACs-iMac dice % mkdir version_control
+(base) siaccrainnovationsch@IMACs-iMac dice % cd version_control
+(base) siaccrainnovationsch@IMACs-iMac version_control % git init .
+Initialized empty Git repository in /Users/siaccrainnovationsch/Documents/dice/version_control/.git/
+(base) siaccrainnovationsch@IMACs-iMac version_control % ls
+(base) siaccrainnovationsch@IMACs-iMac version_control % ls -a
+.	..	.git
+(base) siaccrainnovationsch@IMACs-iMac version_control % touch README.md
+(base) siaccrainnovationsch@IMACs-iMac version_control % git status
+On branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	README.md
+
+nothing added to commit but untracked files present (use "git add" to track)
+(base) siaccrainnovationsch@IMACs-iMac version_control % git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+hint: "git config advice.addEmptyPathspec false"
+(base) siaccrainnovationsch@IMACs-iMac version_control % git add .
+(base) siaccrainnovationsch@IMACs-iMac version_control % git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	new file:   README.md
+
+(base) siaccrainnovationsch@IMACs-iMac version_control % git commit -m "initial commit"
+[main (root-commit) 23342a1] initial commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+(base) siaccrainnovationsch@IMACs-iMac version_control % git config --global user.name "Stephen Dice"
+(base) siaccrainnovationsch@IMACs-iMac version_control % git config --global user.email "jetayor@gmail.com"
+(base) siaccrainnovationsch@IMACs-iMac version_control % git log
+commit 23342a1ed863720d061fb621b1c3854dfa9277bb (HEAD -> main)
+Author: dice004 <jetayor@gmail.com>
+Date:   Fri Sep 29 10:03:03 2023 +0000
+
+    initial commit
+(base) siaccrainnovationsch@IMACs-iMac version_control % git remote add origin git@github.com:dice004/dice_siliconaccra.git
+(base) siaccrainnovationsch@IMACs-iMac version_control % git branch
+* main
+(base) siaccrainnovationsch@IMACs-iMac version_control % 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(base) siaccrainnovationsch@IMACs-iMac version_control % python
+Python 3.11.4 (main, Jul  5 2023, 09:00:44) [Clang 14.0.6 ] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> my_list = [1,2,3,4,5,6]
+>>> my_list.append(7)
+>>> my_list
+[1, 2, 3, 4, 5, 6, 7]
+>>> my_list.insert(4,8)
+>>> my_list
+[1, 2, 3, 4, 8, 5, 6, 7]
+>>> my_list.insert(0,0)
+>>> my_list
+[0, 1, 2, 3, 4, 8, 5, 6, 7]
+>>> my_list[::-1]
+[7, 6, 5, 8, 4, 3, 2, 1, 0]
+>>> my_list[4:0:-1]
+[4, 3, 2, 1]
+>>> my_list.pop(0)
+0
+>>> my_list
+[1, 2, 3, 4, 8, 5, 6, 7]
+>>> my_list[4:0:1]
+[]
+>>> my_list[4:1]
+[]
+>>> my_list[4:1:-1]
+[8, 4, 3]
+>>> my_list.remove(8)
+>>> my_list
+[1, 2, 3, 4, 5, 6, 7]
+>>> my_list[4:0:-1]
+[5, 4, 3, 2]
+>>> my_list[4::-1]
+[5, 4, 3, 2, 1]
+>>> my_list
+[1, 2, 3, 4, 5, 6, 7]
+>>> my_list[3::-1]
+[4, 3, 2, 1]
+>>> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  [Restored 29 Sep 2023 at 12:58:27 PM]
+Last login: Fri Sep 29 12:58:22 on console
+(base) siaccrainnovationsch@IMACs-iMac version_control % 
+  [Restored 29 Sep 2023 at 1:20:15 PM]
+Last login: Fri Sep 29 13:20:12 on console
+(base) siaccrainnovationsch@IMACs-iMac version_control % 
+(base) siaccrainnovationsch@IMACs-iMac version_control % 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  [Restored 30 Sep 2023 at 10:18:20 AM]
+Last login: Sat Sep 30 10:18:15 on console
+Restored session: Fri Sep 29 18:53:26 GMT 2023
+(base) siaccrainnovationsch@IMACs-iMac version_control % 
+(base) siaccrainnovationsch@IMACs-iMac version_control % touch inv_mgt_sys.py
+(base) siaccrainnovationsch@IMACs-iMac version_control % code .
+zsh: command not found: code
+(base) siaccrainnovationsch@IMACs-iMac version_control % python inv_mgt_sys.py
+{'Tables': 19, 'iMacs': 19, 'Chairs': 19, 'Keyboards': 19, 'Mice': 19, 'UPS': 19, 'Preomethean': 1, 'Whiteboard': 1}
+
+
+(base) siaccrainnovationsch@IMACs-iMac version_control % git add inv_mgt_sys.py
+(base) siaccrainnovationsch@IMACs-iMac version_control % git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	new file:   inv_mgt_sys.py
+
+(base) siaccrainnovationsch@IMACs-iMac version_control % git commit -m "inventory management system"
+[main 2aebf61] inventory management system
+ 1 file changed, 63 insertions(+)
+ create mode 100644 inv_mgt_sys.py
+(base) siaccrainnovationsch@IMACs-iMac version_control % git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 682 bytes | 682.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To github.com:dice004/dice_siliconaccra.git
+   23342a1..2aebf61  main -> main
+(base) siaccrainnovationsch@IMACs-iMac version_control % git add .
+(base) siaccrainnovationsch@IMACs-iMac version_control % git push
+Everything up-to-date
+(base) siaccrainnovationsch@IMACs-iMac version_control % git add .
+(base) siaccrainnovationsch@IMACs-iMac version_control % git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   README.md
+	modified:   inv_mgt_sys.py
+
+(base) siaccrainnovationsch@IMACs-iMac version_control % git commit
+hint: Waiting for your editor to close the file... 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Changes to be committed:
+#       modified:   README.md
+#       modified:   inv_mgt_sys.py
+new commit#
+~                                                                                                              
+~                                                                                                              
+~                                                                                                              
+~                                                                                                              
+~                                                                                                              
+~                                                                                                              
+~                                                                                                              
+~                                                                                                              
+~                                                                                                              
+~                                                                                                              
+~                                                                                                              
+~                                                                                                              
+~                                                                                                              
+~                                                                                                              
+~                                                                                                              
+~                                                                                                              
+~                                                                                                              
+~                                                                                                              
+~                                                                                                              
+~                                                                                                              
+~                                                                                                              
+~                                                                                                              
+~                                                                                                              
+~                                                                                                              
+~                                                                                                              
+~                                                                                                              
+~                                                                                                              
+~                                                                                                              
+~                                                                                                              
+~                                                                                                              
+~                                                                                                              
+~                                                                                                              
+~                                                                                                              
+~                                                                                                              
+~                                                                                                              
+~                                                                                                              
+~                                                                                                              
+~                                                                                                              
+~                                                                                                              
+~                                                                                                              
+~                                                                                                              
+~                                                                                                              
+~                                                                                                              
+~                                                                                                              
+~                                                                                                              
+~                                                                                                              
+~                                                                                                              
+~                                                                                                              
+~                                                                                                              
+~                                                                                                              
+~                                                                                                              
+~                                                                                                              
+~                                                                                                              
+~                                                                                                              
+~                                                                                                              
+~                                                                                                              
+~                                                                                                              
+-- INSERT --

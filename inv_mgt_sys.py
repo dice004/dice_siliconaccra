@@ -2,6 +2,7 @@
 #including adding, 
 #updating 
 #displaying items.
+# Setting Initial Inventory Database
 print("\n") 
 inv_dict = {"Tables" :19,
             "iMacs" :19,
@@ -13,6 +14,7 @@ inv_dict = {"Tables" :19,
             "Whiteboard" :1}
 print("Current Inventory is: ", inv_dict)
 
+# Asking User for New Inventory Information to update database with
 print("\n")
 x = int(input("How many new items do you want to add?: "))
 
@@ -53,11 +55,6 @@ print("New inventory is:", inv_dict)
 
 
 
-#yek = 
-#lue = 
-def update_inv(yek, lue):
-    update = {**inv_dict, **{yek:lue}}
-    print(update)
-    return update
+
 
 
