@@ -10,19 +10,6 @@ inv_dict = {"Tables" :19,
             "Whiteboard" :1}
 print("Current Inventory is: ", inv_dict)
 
-# Making an update to the already existing inventory
-update = int(input("If you wish to make changes with items already existing in catalog, how many will they be?: "))
-print("\n")
-y = int(input("How many already existing items do you want to add changes to?: "))
-print("\n")
-if update > 0 :
-    for i in range(y):
-                al_inv = input("what is the already existing item to make changes to?: ")
-                new_val = int(input("What is the quantity already existing item to make changes to?: "))
-                updated_inv = inv_dict[al_inv] = new_val 
-    else:
-        print("Updated Inventory is: ",updated_inv)
-
 # Asking User for New Inventory Information to update database with
 print("\n")
 x = int(input("How many new items do you want to add?: "))
