@@ -23,6 +23,8 @@ if update > 0 :
     else:
         print("Updated Inventory is: ",updated_inv)
 
+
+
 # Asking User for New Inventory Information to update database with
 print("\n")
 x = int(input("How many new items do you want to add?: "))
